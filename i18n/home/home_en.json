@@ -1,0 +1,57 @@
+{
+    "Index": {
+      "title": "Hello world!"
+    },
+    "NavBar": {
+      "p1": "About Us",
+      "p2": "Services",
+      "p3": "Article",
+      "p4": "Contact Us"
+    },
+    "Footer": {
+      "p1": "About Us",
+      "p2": "Services",
+      "p3": "Article",
+      "p4": "Contact Us",
+      "p5": "Address",
+      "p6": "Work Hour",
+      "p7": "Monday - Friday, 09.00 - 21.00 WIB GMT +7"
+    },
+    "HomeHeader": {
+      "h1": "Fast Delivery",
+      "h2": "With",
+      "h3": "Together with an experienced and professional team with years of experience in logistics and supply chain management (SCM), we offer the best logistics solutions with expertise and network throughout Indonesia."
+    },
+    "HomeService": {
+      "h": "Our Service",
+      "p": "Welcome to Panca Budi Logistindo! Your ultimate logistical solution provider!"
+    },
+    "HomeCard": {
+      "title1": "Trucking Services",
+      "desc1": "PBL handles the movement of goods and materials from one location to another",
+      "title2": "Eksport & Import",
+      "desc2": "PBL is responsible for handling customs procedures and ensure compliance with import/export regulations",
+      "title3": "Custom Clearance & Document Services",
+      "desc3": "The import-export and customs clearance services of PBL are integrated with our worldwide operational systems."
+    },
+    "HomeMap" :{
+      "h" : "We offer best logistic solutions to improve efficiency on custom production and distribution throughout Indonesia."
+    },
+    "HomeMessage": {
+      "h": "Switch to Panca Budi Logistindo now!",
+      "p": "Panca Budi Logistindo is a logistic & supply chain management solution for businesses across various industries. Supported by technology that can monitor all shipments and product management in real time. Panca Budi Logistindo provides end-to-end services from warehouse management with instant capacity to distribution & delivery management.",
+      "h2" : "Get in touch with Panca Budi Logistindo",
+      "p1" : "Your Name",
+      "p2" : "Your Email",
+      "p3" : "Subject",
+      "p4" : "Your Message",
+      "p5" : "Send Message",
+      "p6" : "Full Name",
+      "p7" : "name@email.com",
+      "p8" : "Let us know how we can help you",
+      "p9" : "Leave a comment..."
+    },
+    "CredsClient": {
+      "h": "OUR CLIENTS"
+    }
+  }

@@ -1,0 +1,58 @@
+{
+    "Index": {
+      "title": "Halo Dunia!"
+    },
+    "NavBar": {
+      "p1": "Tentang Kami",
+      "p2": "Layanan Kami",
+      "p3": "Artikel",
+      "p4": "Kontak"
+    },
+    "Footer": {
+      "p1": "Tentang Kami",
+      "p2": "Layanan Kami",
+      "p3": "Artikel",
+      "p4": "Kontak",
+      "p5": "Alamat",
+      "p6": "Jam Kerja",
+      "p7": "Senin - Jumat, 09.00 - 21.00 WIB GMT +7"
+    },
+    "HomeHeader": {
+      "h1": "Pengiriman Cepat",
+      "h2": "Bersama",
+      "h3": "Bersama dengan tim yang berpengalaman dan profesional dalam logistik dan manajemen rantai pasokan, kami menawarkan solusi logistik terbaik dengan keahlian dan jaringan yang meluas di seluruh Indonesia."
+    },
+    "HomeService": {
+      "h": "Layanan Kami",
+      "p": "Salamat datang di Panca Budi Logistindo! Solusi Logistik Terbaik untuk Anda!"
+    },
+    "HomeCard": {
+      "title1": "Layanan Truk",
+      "desc1": "PBL menangani pergerakan barang dan material dari satu lokasi ke lokasi lainnya.",
+      "title2": "Ekspor & Impor",
+      "desc2": "PBL bertanggung jawab untuk menangani prosedur bea cukai dan memastikan kesesuaian terhadap regulasi impor/ekspor.",
+      "title3": "Pengurusan Bea Cukai & Layanan Dokumen",
+      "desc3": "Layanan impor-ekspor dan pembersihan bea cukai dari PBL terintegrasi dengan sistem operasional kami secara global."
+    },
+    "HomeMap" :{
+      "h": "Kami menawarkan solusi logistik terbaik untuk meningkatkan efisiensi dalam distribusi di seluruh Indonesia."
+    },
+    "HomeMessage": {
+      "h": "Beralih ke Panca Budi Logistindo Sekarang!",
+      "p": "Panca Budi Logistindo adalah solusi manajemen logistik dan rantai pasok untuk bisnis di berbagai industri. Didukung oleh teknologi yang dapat memantau semua pengiriman dan manajemen produk secara real-time Panca Budi Logistindo menyediakan layanan end-to-end mulai dari manajemen gudang hingga manajemen distribusi dan pengiriman.",
+      "h2" : "Hubungi Kami Panca Budi Logistindo",
+      "p1" : "Nama Anda",
+      "p2" : "Email Anda",
+      "p3" : "Subjek",
+      "p4" : "Pesan Anda",
+      "p5" : "Kirim Pesan",
+      "p6" : "Nama Lengkap",
+      "p7" : "nama@email.com",
+      "p8" : "Beri tahu kami bagaimana kami dapat membantu Anda",
+      "p9" : "Tiggalkan pesan..."
+    },
+
+    "CredsClient": {
+      "h": "KLIEN KAMI"
+    }
+}

@@ -1,0 +1,28 @@
+{
+  "cont": {
+    "h1": "Contact Us",
+    "h2": "We would like to get to know you, and we'd be happy to answer your questions!"
+  },
+  "conss": {
+    "h1": "OUR LOCATIONS",
+    "h2": "HEAD OFFICE",
+    "h3": "BRANCHES"
+  },
+  "mess":{
+    "h2" : "SEND A MESSAGE",
+    "p1" : "Your Name",
+    "p2" : "Your Email",
+    "p3" : "Subject",
+    "p4" : "Your Message",
+    "p5" : "Send Message",
+    "p6" : "Full Name",
+    "p7" : "name@email.com",
+    "p8" : "Let us know how we can help you",
+    "p9" : "Leave a comment..."
+  },
+  "area":{
+    "h1":"West Java",
+    "h2":"Central Java",
+    "h3":"East Java"
+  }
+}

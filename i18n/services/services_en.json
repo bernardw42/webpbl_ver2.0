@@ -1,0 +1,16 @@
+{
+  "Serv": {
+    "h1": "Enjoy our",
+    "h2": "Features and Services",
+    "h3": "that contributes to your business growth."
+  },
+  "ServCard": {
+      "h": "BUSINESS OVERVIEW",
+      "title1": "TRUCKING",
+      "desc1": "PBL handle the movement of goods and materials from one location to another.This includes arranging for shipping, trucking, air freight, or rail transportation based on the specific needs of their clients",
+      "title2": "EXPORT IMPORT",
+      "desc2": "PBL is responsible for handling customs procedures and ensure compliance with import/export regulations. We assist in clearing customs, completing necessary paperwork, and paying duties or taxes on behalf of our clients.",
+      "title3": "DISTRIBUTION & WAREHOUSING",
+      "desc3": "PBL provide warehousing facilities to store goods temporarily. They manage inventory levels, organize storage space efficiently, and ensure timely delivery of goods when required as well as its delivery"
+  }
+}
