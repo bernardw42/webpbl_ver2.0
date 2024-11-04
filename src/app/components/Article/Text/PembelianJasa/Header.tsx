@@ -51,7 +51,7 @@ export default function Header() {
                 <svg className="w-4 h-4 mr-2" fill="currentColor" viewBox="0 0 20 20">
                     <path d="M10 19l-7-7h14l-7 7zm0-2.17l4.59-4.59H5.41L10 16.83zm0-12.66L5.41 9.83h9.18L10 4.17z" />
                 </svg>
-                <span>Back</span>
+                <span>{t('artc.h3')}</span>
             </button>
             
             {/* Divider */}
@@ -59,7 +59,7 @@ export default function Header() {
             
             {/* Breadcrumb */}
             <nav className="flex items-center space-x-2">
-                <a href="/article" className="text-gray-500 hover:underline">Article</a>
+                <a href="/article" className="text-gray-500 hover:underline">{t('art.h1')}</a>
                 <span className="text-gray-500">{'>'}</span>
                 <span className="text-gray-500 max-sm:max-w-[150px] truncate">Pembelian Jasa dengan Momentum Tahun 2024</span>
             </nav>

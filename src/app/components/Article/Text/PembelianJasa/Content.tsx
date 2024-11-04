@@ -12,7 +12,7 @@ export default function Text() {
         <div className="flex flex-col bg-white w-full h-full justify-center items-center px-[5%]">
             <div className="max-w-7xl flex flex-col pt-[70px] pb-[100px] ">
                 <h1 className="text-[26px] font-semibold text-black">Pembelian Jasa dengan Momentum Tahun 2024</h1>
-                <p className="text-gray-500 text-[12px]">8 January 2021 | Panca Budi Logistindo</p>
+                <p className="text-gray-500 text-[12px]">8 Januari 2021 | Panca Budi Logistindo</p>
                 <div className="text-justify flex flex-col mt-[50px] gap-y-[20px]">
                     <p className="text-black">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus placerat libero id efficitur venenatis. Sed eu magna id lorem consectetur ultricies non vitae lacus. Curabitur cursus euismod nibh, id facilisis ex vulputate ut. Nullam vehicula ex non lectus venenatis, ut tristique nunc scelerisque. In vel aliquet nunc, nec convallis sapien. Etiam fermentum sem nec enim tincidunt gravida. Phasellus convallis, ante in tempus dignissim, ex orci bibendum neque, at scelerisque dolor urna at lacus. Proin dapibus consequat turpis, non luctus velit aliquet sed. Fusce et quam sed magna cursus volutpat non sit amet lectus. Sed tempus sapien vel metus consequat, vitae faucibus lorem congue. Ut sit amet mollis nunc. Duis ac purus felis. Donec fringilla lectus ac metus egestas gravida.

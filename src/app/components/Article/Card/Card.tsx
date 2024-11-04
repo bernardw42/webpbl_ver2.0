@@ -1,3 +1,4 @@
+import { useTranslation } from 'next-export-i18n';
 import Image, { StaticImageData } from 'next/image';
 import Link from 'next/link';
 
@@ -11,6 +12,7 @@ interface CardProps {
 }
 
 const Card: React.FC<CardProps> = ({ title, date, desc, image, className, links }) => {
+  const { t } = useTranslation();
 
   return (
     <div className={`relative flex flex-col max-w-[400px] ${className}`}>
@@ -28,7 +30,7 @@ const Card: React.FC<CardProps> = ({ title, date, desc, image, className, links 
         <ul className='pt-[15px] '>
           <li>
             <Link href={links} className="inline-block bg-red-500 hover:bg-red-700 text-white font-semibold rounded-full px-3 py-2 transition duration-150 ease-in-out text-[12px]">
-              READ MORE
+            {t('artc.h')}
             </Link>
           </li>
         </ul>

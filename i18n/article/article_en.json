@@ -2,5 +2,11 @@
   "art": {
     "h1": "Article",
     "h2": "Article Information"
+  },
+  "artc":{
+    "h": "Read More",
+    "h2": "Subscribe",
+    "h3" : "Back",
+    "p" : "Join the newsletter to receive the latest updates in your inbox"
   }
 }

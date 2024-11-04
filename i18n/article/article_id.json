@@ -2,5 +2,11 @@
   "art": {
     "h1": "Artikel",
     "h2": "Informasi Artikel"
+  },
+  "artc":{
+    "h": "Baca Lebih",
+    "h2": "Langganan",
+    "h3" : "Kembali",
+    "p" : "Bergabung di Newsletter Kami untuk Informasi Terbaru"
   }
 }

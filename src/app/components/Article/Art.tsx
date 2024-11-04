@@ -97,7 +97,7 @@ export default function Art() {
         </div>
         {/* <Image src={error} alt="under" className='w-[500px]'></Image> */}
         <h2 className="text-center font-semibold text-xl px-8 text-[#033C5A] mb-8">
-          Join the newsletter to receive the latest updates in your inbox
+          {t('artc.p')}
         </h2>
         <div className="flex items-center rounded-2xl w-full max-w-lg px-8">
           <form
@@ -122,7 +122,7 @@ export default function Art() {
               type="submit"
               className=" min-w-1/4 px-4 bg-[#023C5A] text-white rounded-r-2xl py-[23px] font-semibold hover:bg-[#102936] focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500 transition ease-in-out duration-300"
             >
-              Subscribe
+              {t('artc.h2')}
             </button>
             <div aria-hidden="true" style={{ position: 'absolute', left: '-5000px' }}>
               <input type="text" name="b_59112821948cbb4fe715f0ce6_ed8385b4e8"  value="" />
@@ -134,3 +134,4 @@ export default function Art() {
     </>
   );
 }
+
