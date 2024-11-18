@@ -3,7 +3,7 @@
 import { useState, useEffect } from "react";
 import { useInView } from "react-intersection-observer";
 import tab from "@/../public/article/9-4-2024pembelianjasa/yes.webp";
-import { useTranslation } from "next-export-i18n";
+import { LinkWithLocale, useTranslation } from "next-export-i18n";
 
 export default function Header() {
   const { t } = useTranslation();
@@ -59,7 +59,7 @@ export default function Header() {
             
             {/* Breadcrumb */}
             <nav className="flex items-center space-x-2">
-                <a href="/article" className="text-gray-500 hover:underline">{t('art.h1')}</a>
+                <LinkWithLocale href="/article" className="text-gray-500 hover:underline">{t('art.h1')}</LinkWithLocale>
                 <span className="text-gray-500">{'>'}</span>
                 <span className="text-gray-500 max-sm:max-w-[150px] truncate">Pembelian Jasa dengan Momentum Tahun 2024</span>
             </nav>

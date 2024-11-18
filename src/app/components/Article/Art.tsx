@@ -113,7 +113,7 @@ export default function Art() {
                 type="email"
                 name="EMAIL"
                 id="mce-EMAIL"
-                placeholder="Your email address"
+                placeholder={t('artc.p2')}
                 className="appearance-none w-full px-4 py-5 text-gray-900 rounded-l-2xl focus:outline-none border border-gray-300 placeholder-gray-500"
                 required
               />
