@@ -5,7 +5,6 @@ import { useState, useEffect } from "react";
 import {
     FaInstagram,
     FaTiktok,
-    FaTelegramPlane,
     FaWhatsapp,
     FaEnvelope,
 } from "react-icons/fa";

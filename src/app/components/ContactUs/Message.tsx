@@ -43,7 +43,7 @@ export default function Message() {
         }
     };
 
-    const [windowHeight, setWindowHeight] = useState(window.innerHeight);
+    const [windowHeight, setWindowHeight] = useState(0);
     const [isMobileLandscape, setIsMobileLandscape] = useState(false);
 
     // Effect to update height on window resize
@@ -52,6 +52,7 @@ export default function Message() {
             setWindowHeight(window.innerHeight);
         };
 
+        handleResize();
         window.addEventListener("resize", handleResize);
 
         // Cleanup listener on component unmount
@@ -64,7 +65,6 @@ export default function Message() {
     const checkMobileLandscape = () => {
         const isLandscape = window.matchMedia('(orientation: landscape)').matches;
         const isMobile = window.matchMedia('(max-height: 767px)').matches; // Changed to max-height
-        console.log('isLandscape:', isLandscape, 'isMobile:', isMobile); // Debugging
         setIsMobileLandscape(isLandscape && isMobile);
     };
 

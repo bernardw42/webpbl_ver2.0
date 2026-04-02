@@ -83,7 +83,16 @@ const Pagination: React.FC<PaginationProps> = ({ postsPerPage, totalPosts, pagin
 
   const handlePaginationClick = (pageNumber: number) => {
     paginate(pageNumber);
-    window.scrollTo(0, 0); // Scrolls to the top of the page
+    
+    requestAnimationFrame(() => {
+      const el = document.getElementById("article");
+      if (el) {
+        el.scrollIntoView({
+          behavior: "smooth",
+          block: "start",
+        });
+      }
+    });
   };
 
   return (

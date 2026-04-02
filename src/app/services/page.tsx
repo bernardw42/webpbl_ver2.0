@@ -1,14 +1,13 @@
-"use client"
-
+import type { Metadata } from "next";
 import Header from "@/app/components/Services/Header"
-import { useEffect } from "react";
+
+export const metadata: Metadata = {
+  title: "Services",
+};
 
 export default function Services() {
     return(
     <>
-      <head>
-        <title>PBL - Services</title>
-      </head>
       <Header></Header>
     </>
     )

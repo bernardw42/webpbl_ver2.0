@@ -1,14 +1,13 @@
-"use client"
-
-import { useEffect } from "react";
+import type { Metadata } from "next";
 import Message from "../components/ContactUs/Message"
+
+export const metadata: Metadata = {
+  title: "Contact Us",
+};
 
 export default function ContactUs (){
     return(
         <>
-        <head>
-            <title>PBL - Contact Us</title>
-        </head>
         <Message></Message>
         </>
     )

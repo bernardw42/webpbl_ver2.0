@@ -62,7 +62,7 @@ export default function Art() {
   
   return (
     <>
-      <div className="bg-white w-full min-h-screen flex flex-col items-center pt-[100px] max-sm:pt-[70px] pb-[150px]">
+      <div className="bg-white w-full min-h-screen flex flex-col items-center pt-[100px] max-sm:pt-[70px] pb-[150px]" id='article'>
         <div className="max-w-7xl w-full flex flex-col px-8 mb-[100px]" ref={titleRef}>
           <h1 className={`text-[#033C5A] font-bold text-4xl mb-16 max-lg:text-center transition-opacity duration-1000 max-sm:hidden`}>
             {t('art.h2')}

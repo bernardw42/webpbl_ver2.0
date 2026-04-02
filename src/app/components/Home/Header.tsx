@@ -45,16 +45,14 @@ export default function Header() {
 
   return (
     <div
-      className={`relative w-full ${
-        isMobileLandscape ? 'h-[1080px]' : 'h-screen'
-      } flex justify-center items-center bg-white overflow-hidden`}
+      className={`relative w-full h-screen flex justify-center items-center bg-white overflow-hidden`}
     >
-      <div className="relative max-lg:w-[90%] w-[95%] h-[85%] mt-[80px] brightness-50">
+      <div className="relative max-lg:w-[90%] w-[95%] h-[80%] mt-[60px] brightness-50">
         <video className="w-full h-full object-cover rounded-2xl" autoPlay muted loop>
           <source src="/home/pbl.mp4" type="video/mp4" />
         </video>
       </div>
-      <div className="absolute inset-0 flex justify-end max-w-7xl mx-auto items-center text-white px-10">
+      <div className="absolute flex justify-end max-w-7xl mx-auto items-center text-white px-10 mt-[70px]">
         <div
           ref={titleRef}
           className={`text-right w-[60%] max-md:w-[90%] max-sm:w-[100%] drop-shadow-2xl px-10 max-sm:px-0 transition-opacity duration-[1500ms] ease-in-out ${
