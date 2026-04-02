@@ -83,9 +83,7 @@ export default function Message() {
 
     return (
         <div className="flex flex-col justify-center items-center">
-            <div className={`relative bg-[#F9F9F9] flex-col w-full ${
-            isMobileLandscape ? 'h-[850px]' : 'h-screen'
-            } flex items-center overflow-hidden`} ref={textRef}>
+            <div className={`relative bg-[#F9F9F9] flex-col w-full h-screen flex items-center overflow-hidden`} ref={textRef}>
                 <div className="max-w-7xl flex flex-col justify-start px-8 z-10 overflow-hidden">
                     <h1 className={`mt-[150px] text-left min-[1025px]:text-left min-[1300px]:mr-[650px] min-[1025px]:mr-[300px] text-[#033C5A] font-bold text-[35px] max-md:text-2xl ${isMobileLandscape ? 'text-2xl leading-[50px]' : ''} max-md:leading-[50px] transition-all duration-[1500ms] leading-[70px] opacity-0 ${textInView ? 'opacity-100' : ''}`}>
                         {t('cont.h1')}
@@ -97,7 +95,7 @@ export default function Message() {
 
                 <div
                     ref={textRef}
-                    className={`z-0 absolute bottom-0 left-[15%] max-[1025px]:left-[4%] flex bg-fixed bg-no-repeat bg-contain transition-all duration-[1500ms] w-full ${
+                    className={`z-0 max-lg:bottom-[-20px] max-[768px]:bottom-0 absolute bottom-0 left-[15%] max-[1025px]:left-[4%] flex bg-fixed bg-no-repeat bg-contain transition-all duration-[1500ms] w-full ${
                         textInView ? "opacity-100 translate-x-0" : "opacity-0 translate-x-[15%]"
                     } ${windowHeight < 850 ? 'h-[500px]' : 'h-[800px]'}`}
                     style={{
